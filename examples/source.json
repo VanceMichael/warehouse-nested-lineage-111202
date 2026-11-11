@@ -1,0 +1,18 @@
+{
+  "purchase_lines": [
+    {
+      "line": "l1",
+      "order_id": "o1",
+      "sku": "s1",
+      "quantity": "2",
+      "price": "0.10"
+    },
+    {
+      "line": "l2",
+      "order_id": "o1",
+      "sku": "s2",
+      "quantity": "1",
+      "price": "0.20"
+    }
+  ]
+}

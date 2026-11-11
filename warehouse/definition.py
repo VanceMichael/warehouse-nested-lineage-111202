@@ -1,0 +1,1 @@
+SCHEMA = {'purchase_lines': 'line TEXT PRIMARY KEY, order_id TEXT NOT NULL, sku TEXT NOT NULL, quantity TEXT NOT NULL, price TEXT NOT NULL'}
