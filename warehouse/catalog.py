@@ -4,7 +4,7 @@ import sqlite3
 from contextlib import contextmanager
 from pathlib import Path
 
-from .definition import SCHEMA
+from .definition import SCHEMA, CHAIN_SCHEMA
 
 
 def encode(value):
@@ -16,7 +16,7 @@ def connect(path):
     connection.row_factory = sqlite3.Row
     connection.execute('PRAGMA foreign_keys=ON')
     connection.execute('PRAGMA busy_timeout=5000')
-    for table, columns in SCHEMA.items():
+    for table, columns in {**SCHEMA, **CHAIN_SCHEMA}.items():
         connection.execute(f'CREATE TABLE IF NOT EXISTS "{table}" ({columns})')
     connection.execute('CREATE TABLE IF NOT EXISTS ingest_batches (batch TEXT PRIMARY KEY, digest TEXT NOT NULL, rows INTEGER NOT NULL)')
     return connection

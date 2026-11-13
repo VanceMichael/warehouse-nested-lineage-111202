@@ -1,0 +1,2 @@
+{"order_id": "o1001", "version": 3, "buyer": "北极星贸易（虚构）", "currency": "CNY", "note": "首行备注\n第二行备注", "tags": ["priority", "export"], "lines": [{"line_id": "l3", "sku": "s-乌龙", "quantity": 4, "price": 0.05}, {"line_id": "l1", "sku": "s-红茶", "quantity": 2, "price": 0.10}]}
+{"order_id": "o1002", "version": 2, "buyer": "青崖物流华东仓（虚构）"}

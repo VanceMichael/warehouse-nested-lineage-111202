@@ -1,0 +1,1 @@
+{"order_id": "o3001", "version": 1, "buyer": "补录仓（虚构）", "currency": "CNY", "note": "修正：补上 line_id", "tags": [], "lines": [{"line_id": "b1", "sku": "s1", "quantity": 1, "price": 0.10}]}

@@ -1,0 +1,6 @@
+order_id,payload
+o2001,"{""order_id"": ""o2001"", ""version"": 1, ""buyer"": ""临时采购（虚构）"", ""currency"": ""CNY"", ""note"": null, ""tags"": [], ""lines"": [{""line_id"": ""x1"", ""sku"": ""s1"", ""quantity"": 1, ""price"": 0.10}]}"
+o2002,"{"order_id"": ""o2002"", ""version"": 1}"
+o2003,"{""order_id"": ""o2003"", ""version"": 1, ""buyer"": ""恢复行（虚构）"", ""currency"": ""CNY"", ""note"": ""引号错误行之后的记录"", ""tags"": [], ""lines"": [{""line_id"": ""y1"", ""sku"": ""s2"", ""quantity"": 2, ""price"": 1.00}]}"
+o2004,"{""order_id"": ""o2004"", ""version"": }"
+o2005,"{""order_id"": ""o9999"", ""version"": 1, ""buyer"": ""错号（虚构）"", ""currency"": ""CNY"", ""note"": null, ""tags"": [], ""lines"": []}"

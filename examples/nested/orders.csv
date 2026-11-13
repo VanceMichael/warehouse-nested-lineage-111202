@@ -1,0 +1,28 @@
+order_id,payload
+o1001,"{
+  ""order_id"": ""o1001"",
+  ""version"": 1,
+  ""buyer"": ""北极星贸易（虚构）"",
+  ""currency"": ""CNY"",
+  ""note"": ""首行备注\n第二行备注"",
+  ""tags"": [
+    ""priority"",
+    ""export""
+  ],
+  ""lines"": [
+    {
+      ""line_id"": ""l1"",
+      ""sku"": ""s-红茶"",
+      ""quantity"": 2,
+      ""price"": ""0.10""
+    },
+    {
+      ""line_id"": ""l2"",
+      ""sku"": ""s-绿茶"",
+      ""quantity"": 1,
+      ""price"": ""0.20""
+    }
+  ]
+}"
+o1002,"{""order_id"": ""o1002"", ""version"": 1, ""buyer"": ""青崖物流（虚构）"", ""currency"": ""CNY"", ""note"": ""含精度风险价格"", ""tags"": [""fragile""], ""lines"": [{""line_id"": ""m1"", ""sku"": ""s-瓷器"", ""quantity"": 3, ""price"": 19.989999999999998}]}"
+o1003,"{""order_id"": ""o1003"", ""version"": 1, ""buyer"": ""白泽零售（虚构）"", ""currency"": ""CNY"", ""note"": ""待补充"", ""tags"": [], ""lines"": [{""line_id"": ""n1"", ""sku"": ""s-文具"", ""quantity"": 5, ""price"": ""1.50""}]}"

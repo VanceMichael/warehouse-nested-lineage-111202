@@ -1,0 +1,4 @@
+{"order_id": "o3001", "version": 1, "buyer": "缺标识（虚构）", "currency": "CNY", "note": null, "tags": [], "lines": [{"sku": "s1", "quantity": 1, "price": 0.10}]}
+{"order_id": "o3002", "version": 1, "buyer": "重标识（虚构）", "currency": "CNY", "note": null, "tags": [], "lines": [{"line_id": "a1", "sku": "s1", "quantity": 1, "price": 0.10}, {"line_id": "a1", "sku": "s2", "quantity": 2, "price": 0.20}]}
+{"order_id": "o3003", "version": 1, "buyer": "�坏字节", "currency": "CNY", "note": null, "tags": [], "lines": []}
+{"order_id": "o3004", "version": 1, "buyer": "非常量（虚构）", "currency": "CNY", "note": null, "tags": [], "lines": [{"line_id": "c1", "sku": "s1", "quantity": 1, "price": NaN}]}
